@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(26, 29, 63);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.re-box{
+    width: 65rem;
+    background-color: #fff;
+    height: 70rem;
+    transform: scale(.85);
+    display: flex;
+}
+
+.personal{
+
+    width:19rem;
+    background-color:rgb(49, 49, 68);
+    height: 70rem;
+    
+}
+
+.personal .image{
+    
+    height: 11em;
+    width: 10em;
+    position:relative;
+    left:23.67%;
+    top:2%;
+}
+
+.personal .name{
+    padding: 19px 10px 8px 11px;
+    color:#fff;
+    font:2.1em 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
+    font-weight: 600;
+
+}
+
+.short{
+   
+    color:rgb(230, 224, 216);
+    padding-left: 12px;
+    font:1.1em 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
+    
+}
+
+.Info{
+
+    padding-top: 10px;
+    width:19rem;
+    height: 24rem;
+    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
+    color:#ffffed;
+    font-weight: 400;
+
+}
+
+.headingP{
+
+    width: 18.9rem;
+    text-align: left;
+    height: 3rem;
+    background-color: rgb(38, 38, 82);
+}
+
+span{
+    position: relative;
+    top:25%;
+    font-size:1.2em;
+    padding-left:12px;
+}
+
+.sidehead{
+    font-size: 1.2em;
+    /* font-style: bold; */
+    padding-bottom: 2px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.realInfo{
+    /* font-style: bold; */
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+div .Info a{
+    text-decoration: none;
+    color:#ffffed;
+    
+}
+
+div .skills{
+   
+    width:19rem;
+    height: 24rem;
+    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
+    color:#ffffed;
+    font-weight: 400;
+}
+
+div .skills .skillInfo{
+    padding: 10px 10px;
+    font-size: 1.1em;
+}
+
+.OutBar{
+    border: 2px solid #fff;
+    height: 1.2em;
+    width: 16em;
+    margin-left: 10px;
+    
+}
+
+.InBar{
+    background-color: #fff;
+    position: relative;
+    top:-4px;
+    font-size: 0.88em;
+    
+}
+
+.brief{
+    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
+}
+.intro{
+    font-size: 1.1em;
+    padding: 11px;
+}
+
+.College{
+    text-decoration: none;
+    color: #000;
+}
+
+.exp,.education, .extra,.more{
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.title{
+    font-size:1.2em;
+    font-weight: bold;
+
+}
+
+.exp time{
+    font-size: 1.1em;
+}
+
+.exp ul, .education ul{
+    padding-left: 13.2em;
+}
+
+.extra p{
+    padding: 5px 3px;
+}
+.extra ul{
+    padding-left: 2em
+}
