@@ -14,16 +14,20 @@ body{
 .re-box{
     width: 65rem;
     background-color: #fff;
-    height: 70rem;
+    height: 100%;
     transform: scale(.85);
     display: flex;
 }
 
 .personal{
 
-    width:19rem;
+    width:20rem;
     background-color:rgb(49, 49, 68);
-    height: 70rem;
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     
 }
 
@@ -31,9 +35,8 @@ body{
     
     height: 11em;
     width: 10em;
-    position:relative;
-    left:23.67%;
-    top:2%;
+    
+    
 }
 
 .personal .name{
@@ -126,6 +129,7 @@ div .skills .skillInfo{
     top:-4px;
     font-size: 0.88em;
     
+    
 }
 
 .brief{
@@ -165,4 +169,103 @@ div .skills .skillInfo{
 }
 .extra ul{
     padding-left: 2em
+}
+
+@media screen and (max-width:570px){
+    .re-box{
+        width: 65rem;
+        background-color: #fff;
+        height: 100%;
+        transform: scale(.85);
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        top:-150px
+    }
+
+    .personal{
+
+        width:100%;
+        background-color:rgb(49, 49, 68);
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+
+    }
+}
+@media screen and (max-width:560px){
+    
+
+    .re-box{
+        width: 65rem;
+        background-color: #fff;
+        height: 100%;
+        transform: scale(.85);
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        top:-150px
+    }
+
+    .personal{
+
+        width:100%;
+        background-color:rgb(49, 49, 68);
+        height: 80rem;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .personal .image{
+       
+        height: 11em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    img{
+        display: flex;
+        
+    }
+    .headingP{
+
+        width: 100vw;
+        text-align: left;
+        height: 3rem;
+        background-color: rgb(38, 38, 82);
+    }
+}
+
+@media screen and (max-width:330px){
+    .re-box{
+        width: 65rem;
+        background-color: #fff;
+        height: 100%;
+        transform: scale(.75);
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        top:-350px
+    }
+
+    .personal{
+
+        width:100%;
+        background-color:rgb(49, 49, 68);
+        height: 80rem;
+
+        
+    }
+
+    .headingP{
+
+        width: 100vw;
+        text-align: left;
+        height: 3rem;
+        background-color: rgb(38, 38, 82);
+    }
 }
