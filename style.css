@@ -1,271 +1,288 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(26, 29, 63);
-    display: flex;
-    align-content: center;
-    justify-content: center;
+body {
+  background-color: rgb(26, 29, 63);
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
-.re-box{
-    width: 65rem;
-    background-color: #fff;
-    height: 100%;
-    transform: scale(.85);
-    display: flex;
+.re-box {
+  width: 65rem;
+  background-color: #fff;
+  height: 100%;
+  transform: scale(0.85);
+  display: flex;
 }
 
-.personal{
-
-    width:20rem;
-    background-color:rgb(49, 49, 68);
-    height: 80rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    
+.personal {
+  width: 20rem;
+  background-color: rgb(49, 49, 68);
+  height: 80rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.personal .image{
-    
-    height: 11em;
-    width: 10em;
-    
-    
+.personal .image {
+  height: 11em;
+  width: 10em;
+  padding-top: 12px;
 }
 
-.personal .name{
-    padding: 19px 10px 8px 11px;
-    color:#fff;
-    font:2.1em 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
-    font-weight: 600;
-
+.personal .name {
+  padding: 19px 10px 8px 11px;
+  color: #fff;
+  font: 2.1em "Calibre", "Inter", "San Francisco", "SF Pro Text", system-ui,
+    sans-serif;
+  font-weight: 600;
 }
 
-.short{
-   
-    color:rgb(230, 224, 216);
-    padding-left: 12px;
-    font:1.1em 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
-    
+.short {
+  color: rgb(230, 224, 216);
+  padding-left: 12px;
+  font: 1.1em "Calibre", "Inter", "San Francisco", "SF Pro Text", system-ui,
+    sans-serif;
 }
 
-.Info{
-
-    padding-top: 10px;
-    width:19rem;
-    height: 24rem;
-    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
-    color:#ffffed;
-    font-weight: 400;
-
+.Info {
+  padding-top: 10px;
+  width: 19rem;
+  height: 24rem;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", system-ui,
+    sans-serif;
+  color: #ffffed;
+  font-weight: 400;
 }
 
-.headingP{
-
-    width: 18.9rem;
-    text-align: left;
-    height: 3rem;
-    background-color: rgb(38, 38, 82);
+.headingP {
+  width: 18.9rem;
+  text-align: left;
+  height: 3rem;
+  background-color: rgb(38, 38, 82);
 }
 
-span{
-    position: relative;
-    top:25%;
-    font-size:1.2em;
-    padding-left:12px;
+span {
+  position: relative;
+  top: 25%;
+  font-size: 1.2em;
+  padding-left: 12px;
 }
 
-.sidehead{
-    font-size: 1.2em;
-    /* font-style: bold; */
-    padding-bottom: 2px;
-    font-weight: 600;
-    padding-left: 10px;
+i {
+  padding: 5px;
+  padding-left: 15px;
+  padding-bottom: 18px;
 }
 
-.realInfo{
-    /* font-style: bold; */
-    padding-bottom: 10px;
-    padding-left: 10px;
+.text {
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 15px;
 }
 
-div .Info a{
-    text-decoration: none;
-    color:#ffffed;
-    
+.mail,
+.Git {
+  position: relative;
+  top: -10px;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-div .skills{
-   
-    width:19rem;
-    height: 24rem;
-    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
-    color:#ffffed;
-    font-weight: 400;
+.Linked {
+  position: relative;
+  top: -15px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.fa-link {
+  position: relative;
+  top: -10px;
+}
+div .Info a {
+  text-decoration: none;
+  color: #ffffed;
 }
 
-div .skills .skillInfo{
-    padding: 10px 10px;
-    font-size: 1.1em;
+div .skills {
+  width: 19rem;
+  height: 24rem;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", system-ui,
+    sans-serif;
+  color: #ffffed;
+  font-weight: 400;
 }
 
-.OutBar{
-    border: 2px solid #fff;
-    height: 1.2em;
-    width: 16em;
-    margin-left: 10px;
-    
+div .skills .skillInfo {
+  padding: 10px 10px;
+  font-size: 1.1em;
 }
 
-.InBar{
+.OutBarA,
+.OutBarCJ,
+.OutBarH,
+.OutBarC,
+.OutBarP,
+.OutBarCW,
+.OutBarU {
+  height: 1.9em;
+  width: 14em;
+  margin-left: 10px;
+  background: linear-gradient(rgb(108, 108, 196), rgb(219, 117, 117));
+  border-radius: 0 23px 23px 0;
+  color: #000;
+  text-align: right;
+}
+
+.OutBarA p,
+.OutBarCJ p,
+.OutBarH p,
+.OutBarC p,
+.OutBarP p,
+.OutBarCW p,
+.OutBarU p {
+  padding-right: 10px;
+  position: relative;
+  top: 5px;
+}
+/* .InBar{
     background-color: #fff;
     position: relative;
     top:-4px;
     font-size: 0.88em;
     
     
+} */
+
+.brief {
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", system-ui,
+    sans-serif;
+}
+.intro {
+  font-size: 1.1em;
+  padding: 11px;
 }
 
-.brief{
-    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',system-ui,sans-serif;
-}
-.intro{
-    font-size: 1.1em;
-    padding: 11px;
+.College {
+  text-decoration: none;
+  color: #000;
 }
 
-.College{
-    text-decoration: none;
-    color: #000;
+.exp,
+.education,
+.extra,
+.more {
+  font-size: 1.1em;
+  padding: 10px;
 }
 
-.exp,.education, .extra,.more{
-    font-size: 1.1em;
-    padding: 10px;
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
-.title{
-    font-size:1.2em;
-    font-weight: bold;
-
+.exp time {
+  font-size: 1.1em;
 }
 
-.exp time{
-    font-size: 1.1em;
+.exp ul,
+.education ul {
+  padding-left: 13.2em;
 }
 
-.exp ul, .education ul{
-    padding-left: 13.2em;
+.extra p {
+  padding: 5px 3px;
+}
+.extra ul {
+  padding-left: 2em;
 }
 
-.extra p{
-    padding: 5px 3px;
+@media screen and (max-width: 570px) {
+  .re-box {
+    width: 65rem;
+    background-color: #fff;
+    height: 100%;
+    transform: scale(0.85);
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: -150px;
+  }
+
+  .personal {
+    width: 100%;
+    background-color: rgb(49, 49, 68);
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
 }
-.extra ul{
-    padding-left: 2em
-}
+@media screen and (max-width: 560px) {
+  .re-box {
+    width: 65rem;
+    background-color: #fff;
+    height: 100%;
+    transform: scale(0.85);
+    display: flex;
+    flex-direction: column;
 
-@media screen and (max-width:570px){
-    .re-box{
-        width: 65rem;
-        background-color: #fff;
-        height: 100%;
-        transform: scale(.85);
-        display: flex;
-        flex-direction: column;
+    position: relative;
+    top: -150px;
+  }
 
-        position: relative;
-        top:-150px
-    }
+  .personal {
+    width: 100%;
+    background-color: rgb(49, 49, 68);
+    height: 80rem;
+    display: flex;
+    align-items: flex-start;
+  }
 
-    .personal{
-
-        width:100%;
-        background-color:rgb(49, 49, 68);
-        height: 100%;
-        display: flex;
-        align-items: flex-start;
-
-    }
-}
-@media screen and (max-width:560px){
-    
-
-    .re-box{
-        width: 65rem;
-        background-color: #fff;
-        height: 100%;
-        transform: scale(.85);
-        display: flex;
-        flex-direction: column;
-
-        position: relative;
-        top:-150px
-    }
-
-    .personal{
-
-        width:100%;
-        background-color:rgb(49, 49, 68);
-        height: 80rem;
-        display: flex;
-        align-items: flex-start;
-    }
-
-    .personal .image{
-       
-        height: 11em;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        
-    }
-    img{
-        display: flex;
-        
-    }
-    .headingP{
-
-        width: 100vw;
-        text-align: left;
-        height: 3rem;
-        background-color: rgb(38, 38, 82);
-    }
+  .personal .image {
+    height: 11em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    display: flex;
+  }
+  .headingP {
+    width: 100vw;
+    text-align: left;
+    height: 3rem;
+    background-color: rgb(38, 38, 82);
+  }
 }
 
-@media screen and (max-width:330px){
-    .re-box{
-        width: 65rem;
-        background-color: #fff;
-        height: 100%;
-        transform: scale(.75);
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 330px) {
+  .re-box {
+    width: 65rem;
+    background-color: #fff;
+    height: 100%;
+    transform: scale(0.75);
+    display: flex;
+    flex-direction: column;
 
-        position: relative;
-        top:-350px
-    }
+    position: relative;
+    top: -350px;
+  }
 
-    .personal{
+  .personal {
+    width: 100%;
+    background-color: rgb(49, 49, 68);
+    height: 80rem;
+  }
 
-        width:100%;
-        background-color:rgb(49, 49, 68);
-        height: 80rem;
-
-        
-    }
-
-    .headingP{
-
-        width: 100vw;
-        text-align: left;
-        height: 3rem;
-        background-color: rgb(38, 38, 82);
-    }
+  .headingP {
+    width: 100vw;
+    text-align: left;
+    height: 3rem;
+    background-color: rgb(38, 38, 82);
+  }
 }
