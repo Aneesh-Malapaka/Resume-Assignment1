@@ -1,4 +1,4 @@
-# Aneesh-Malapaka.github.io
+#Assignment1-Geogo-Resume
 This Resume Project is my first assignment as an intern at the Geogo TechSolutions, as a full stack web developer.
-UPDATE: The glitching of the skill bars is on my device and was normal for other systems.
-Thanks.
+It is now responsive to almost all devices and is working perfectly fine.
+Thank you.
